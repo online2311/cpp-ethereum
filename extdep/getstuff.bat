@@ -3,7 +3,7 @@ if not exist download mkdir download
 if not exist install mkdir install
 if not exist install\windows mkdir install\windows
 
-set eth_server=https://build.ethdev.com/builds/windows-precompiled
+set eth_server=https://github.com/ethereum/cpp-dependencies/releases/download/vc120/
 
 call :download boost 1.55.0
 call :download cryptopp 5.6.2
